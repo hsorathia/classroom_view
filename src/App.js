@@ -5,7 +5,6 @@ import './App.css';
 const App = (props) => {
   const [dropdownOpen, setOpen] = useState(false);
 
-  const toggle = () => setOpen(!dropdownOpen);
 
   return (
     <div className="App">
